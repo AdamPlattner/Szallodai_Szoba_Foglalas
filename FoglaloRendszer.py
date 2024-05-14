@@ -22,7 +22,7 @@ class BookingSystem:
             print("3. Ár Lista")            # (Alap)
             print("4. Kilépés")             # (Alap)
             print("5. Lemondás")            # (Új)
-            print("6. Véglegesítés")        # (Új)
+            print("6. Véglegesítés")        # (Új) Mentett_foglalás.txt fáljba
 
             user_choice = input("Válasz a fenti opciók közül: ")
 
