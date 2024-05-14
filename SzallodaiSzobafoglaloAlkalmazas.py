@@ -1,6 +1,6 @@
 from EgyagyasSzoba import SingleRoom
 from KetagyasSzoba import DoubleRoom
-from Suite import Suite
+from Lakosztaly import Suite
 from Szalloda import Hotel
 
 
@@ -17,12 +17,12 @@ class BookingSystem:
 
     def user_interact(self):
         while True:
-            print("1. Book a room")                # Eredeti
-            print("2. Check room availabilty")     # Eredeti
-            print("3. List room prices")           # Eredeti
-            print("4. Exit")                       # Eredeti
-            #print("5. Undo book mark")             # vonja vissza a foglalást
-            #print("6. Save book mark")             # írd kiír a foglalás.txt / vagy felül írja
+            print("1. Foglalás")            # (Alap)
+            print("2. Szaba Lista")         # (Alap)
+            print("3. Ár Lista")            # (Alap)
+            print("4. Kilépés")             # (Alap)
+            print("5. Lemondás")            # (Új)
+            print("6. Véglegesítés")        # (Új)
 
             user_choice = input("Válasz a fenti opciók közül: ")
 
