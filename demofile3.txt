@@ -1,0 +1,6 @@
+Az Ön által lefoglalt szobák listája:
+
+101 --- 25000Ft
+102 --- 25000Ft
+
+Szobák ára összessen: 50000Ft

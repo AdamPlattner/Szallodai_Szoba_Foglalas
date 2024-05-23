@@ -10,13 +10,13 @@ class Suite(Room):
         if not self.is_booked:
             self.is_booked = True
         else:
-            print("Room is already booked")
+            print("A szoba már le van foglalva.")
 
     def unbook_room(self):
         if self.is_booked:
             self.is_booked = False
         else:
-            print("Room is not booked")
+            print("A szoba nincs lefoglalva.")
 
     def __str__(self):
         return f"{self.number}"
